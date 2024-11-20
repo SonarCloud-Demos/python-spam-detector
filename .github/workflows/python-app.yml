@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ "main", "feature/fetch-input" ]
+    branches: [ "main", "feature/*" ]
   pull_request:
-    branches: [ "main", "feature/fetch-input" ]
+    branches: [ "main", "feature/*" ]
   workflow_dispatch:
 
 permissions:
